@@ -1,21 +1,20 @@
 import 'package:flutter/material.dart';
 
-class TextHeader1 extends StatelessWidget {
+class TextNormal2 extends StatelessWidget {
 
   final String text;
 
-  const TextHeader1({super.key, required this.text});
+  const TextNormal2({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
     return Text(text, style: TextStyle(
-      fontSize: 40,
+      fontSize: 16,
       color: Colors.black,
       fontFamily: "OpenSans",
-      fontWeight: FontWeight.bold,
 
     ),
-      textAlign: TextAlign.center,
+      textAlign: TextAlign.left,
     );
   }
 }
